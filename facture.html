@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAN - Facture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CAN - Facturation</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Retour Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Détail de la facture</h2>
+        <section class="facture-info">
+            <p><strong>Réservation n° :</strong> 2025705</p>
+            <p><strong>Client :</strong> Famille Addams</p>
+            <p><strong>Date :</strong> 01/11/2025</p>
+        </section>
+        <br>
+
+        <h3>Passagers</h3>
+        <article>
+            <table>
+            <thead>
+                <tr>
+                    <th>Catégorie</th>
+                    <th>Nombre</th>
+                    <th>Prix Unitaire</th>
+                    <th>Total Ligne</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Adulte 26 ans et plus</td>
+                    <td>2</td>
+                    <td>18,75 €</td>
+                    <td>37,50 €</td>
+                </tr>
+                <tr>
+                    <td>Jeune 18-25 ans</td>
+                    <td>1</td>
+                    <td>13,80 €</td>
+                    <td>13,80 €</td>
+                </tr>
+                <tr>
+                    <td>Enfant 4-17 ans</td>
+                    <td>1</td>
+                    <td>11,25 €</td>
+                    <td>11,25 €</td>
+                </tr>
+                <tr>
+                    <td>Bébé</td>
+                    <td>1</td>
+                    <td>Gratuit</td>
+                    <td>0,00 €</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" style="text-align:right"><strong>Sous-total Personnes :</strong></td>
+                    <td><strong>62,55 €</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+
+        </article>
+        
+        <h3>Véhicules</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Catégorie</th>
+                    <th>Quantité</th>
+                    <th>Prix Unitaire</th>
+                    <th>Total Ligne</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Catégorie 4 (> 4.80m)</td>
+                    <td>1</td>
+                    <td>210,90 €</td>
+                    <td>210,90 €</td>
+                </tr>
+                <tr>
+                    <td>Trottinette électrique</td>
+                    <td>2</td>
+                    <td>4,70 €</td>
+                    <td>9,40 €</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" style="text-align:right"><strong>Sous-total Véhicules :</strong></td>
+                    <td><strong>220,30 €</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div class="total-section">
+            Prix Total à payer : 282,85 €
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CAN - IUT Robert Schuman</p>
+    </footer>
+</body>
+</html>

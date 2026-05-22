@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAN - Tableau de Bord</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CAN - Pilotage</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Retour Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Tableau de bord : Remplissage</h2>
+        
+        <section class="filtres" style="margin-bottom: 20px;">
+            <label for="liaison">Liaison :</label>
+            <select id="liaison">
+                <option>Lorient - Groix</option>
+                <option>Quiberon - Belle-Île</option>
+            </select>
+            <label for="date">Date :</label>
+            <input type="date" id="date" value="2025-11-01">
+            <button class="bouton">Filtrer</button>
+        </section>
+
+        <section class="dashboard-grid">
+            <article class="stat-box">
+                <h3>Traversée 09:45 (Breizh Nevez)</h3>
+                <div class="jauge-container">
+                    <span>Passagers : 120/200 (60%)</span>
+                    <span class="indicateur orange" title="Moyen"></span>
+                </div>
+                <div class="jauge-container">
+                    <span>Véhicules : 10/40 (25%)</span>
+                    <span class="indicateur vert" title="Faible"></span>
+                </div>
+            </article>
+
+            <article class="stat-box">
+                <h3>Traversée 14:00 (Vindilis)</h3>
+                <div class="jauge-container">
+                    <span>Passagers : 190/200 (95%)</span>
+                    <span class="indicateur rouge" title="Élevé"></span>
+                </div>
+                <div class="jauge-container">
+                    <span>Véhicules : 42/40 (105%)</span>
+                    <span class="indicateur jaune-fluo" title="Surchargé"></span>
+                </div>
+            </article>
+        </section>
+        
+        <section style="margin-top:20px; font-size: 0.9em; background:white; padding:10px;">
+            <strong>Légende Véhicules :</strong>
+            <span class="indicateur vert"></span> &lt;50%
+            <span class="indicateur orange"></span> 50-75%
+            <span class="indicateur rouge"></span> 75-100%
+            <span class="indicateur jaune-fluo"></span> &gt;100%
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CAN - IUT Robert Schuman</p>
+    </footer>
+
+    <script src = "javasrpit.js"></script>
+</body>
+</html>

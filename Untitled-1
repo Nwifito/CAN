@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<title>Cartes d'embarquement</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style1.css">	
+</head>
+<body>
+	<header>
+		<img src="img/logo.png" alt="Logo">
+	</header>		
+	
+	
+	<main>
+        <section>
+            <article>
+            <table border = 0>
+                <td>Gare de départ</td>
+                <td>Gare d'arrivée</td>
+                <td>Date</td>
+                <td>Heure départ</td>
+                <td>Bateau</td>
+            </table>
+
+            <table border = 0>
+                <td>var Lorient</td>
+                <td>var Groix</td>
+                <td>var 01/11/2025</td>
+                <td>var Heure départ</td>
+                <td>var Breizh Nevez</td>
+            </table>
+        </article>
+
+        <header><h1>Carte d'embarquement</h1></header>
+            <article>
+                <table border = 0>
+                    <tr>
+                        <td>Réservation</td>
+                        <td>var reservation</td>
+                    </tr>
+                    <tr>
+                        <td>Nom</td>
+                        <td>var Famille Addams</td>
+                    </tr>
+                </table>
+
+                <hr>
+
+                <table border = 0>
+                    <tr>
+                        <td>Passager</td>
+                    </tr>
+                    <tr>
+                        <td>Nom</td>
+                        <td>var Addams</td>
+                    </tr>
+                    <tr>
+                        <td>Prénom</td>
+                        <td>var Mercredi</td>
+                    </tr>
+                    <tr>
+                        <td>Catégorie</td>
+                        <td>var Jeune 18-25 ans</td>
+                    </tr>
+                    <tr>
+                        <td>Prix</td>
+                        <td>var 13,80 $</td>
+                    </tr>
+                </table>
+
+                <img src="" alt="">
+                
+            
+            </article>
+        </section>
+
+        <section>
+            <article>
+            <table border = 0>
+                <td>Gare de départ</td>
+                <td>Gare d'arrivée</td>
+                <td>Date</td>
+                <td>Heure départ</td>
+                <td>Bateau</td>
+            </table>
+
+            <table border = 0>
+                <td>var Lorient</td>
+                <td>var Groix</td>
+                <td>var 01/11/2025</td>
+                <td>var Heure départ</td>
+                <td>var Breizh Nevez</td>
+            </table>
+        </article>
+
+        <header><h1>Carte d'embarquement</h1></header>
+            <article>
+                <table border = 0>
+                    <tr>
+                        <td>Réservation</td>
+                        <td>var reservation</td>
+                    </tr>
+                    <tr>
+                        <td>Nom</td>
+                        <td>var Famille Addams</td>
+                    </tr>
+                </table>
+
+                <hr>
+
+                <table border = 0>
+                    <tr>
+                        <td>Véhicule</td>
+                    </tr>
+                    <tr>
+                        <td>Catégorie</td>
+                        <td>var Catégorie 4</td>
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>var 1</td>
+                    </tr>
+                    <tr>
+                        <td>Prix</td>
+                        <td>var 210,90 $</td>
+                    </tr>
+                </table>
+
+                <img src="" alt="">
+                
+            
+            </article>
+        </section>
+        
+		
+	</main>
+	
+</body>
+</html>

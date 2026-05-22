@@ -1,0 +1,37 @@
+[
+  {
+    "reservation": {
+      "nom": "Mounissamy",
+      "idLiaison": 2,
+      "date": "2025-11-15",
+      "heure": "06:50",
+      "horodatage": "2026-01-15 11:42:35"
+    },
+    "passagers": [
+      {
+        "nom": "Mounissamy",
+        "prenom": "Timothee",
+        "codeCategorie": "enf417"
+      },
+      {
+        "nom": "Sahakyan",
+        "prenom": "Karen",
+        "codeCategorie": "bebe"
+      }
+    ],
+    "vehicules": [
+      {
+        "codeCategorie": "camp 1",
+        "quantite": 2
+      },
+      {
+        "codeCategorie": "velelec ",
+        "quantite": 1
+      },
+      {
+        "codeCategorie": "cartand ",
+        "quantite": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+const tarif_vehicule_groix = [
+    {trot : 4.70},
+    {velo : 8.20},
+    {velelec : 11.00},
+    {cartand : 16.45},
+    {mobil : 23.10},
+    {moto : 66.05},
+    {cat1 : 96.05},
+    {cat2 : 114.80},
+    {cat3 : 174.45},
+    {cat4 : 210.90},
+    {camp : 330.20},
+];
+
+const tarif_vehicule_belleIle = {
+    trot : 4.70,
+    velo : 8.20,
+    velelec : 11.00,
+    cartand : 16.45,
+    mobil : 23.35,
+    moto : 66.40,
+    cat1 : 98.50,
+    cat2 : 117.20,
+    cat3 : 176.90,
+    cat4 : 213.35,
+    camp : 332.70,
+}
+
+function facture() {
+    let coo = obtenir();
+    const recupDonnees = async () => {
+        try{
+            const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${coo[0]}&longitude=${coo[1]}&hourly=temperature_2m&models=meteofrance_seamless`);
+            if(!response.ok) {
+                throw new Error('Erreur de réseau !');
+            }
+            const data = await response.json();
+        }
+        catch (error) {
+            console.error("Echec de la collecte de données", erreur);
+            return null;
+        };
+        
+
+
+    recupererCoordonnees();
+}
+
+function dico(element) {
+    let new_dico = {};
+    for(let i in element) {
+        if(i in new_dico) {
+            new_dico[i] += 1;
+        }
+        else {
+            new_dico.i = 1;
+        }
+    }
+    return new_dico;
+}}
+
+function detail(data) {
+    let parent = document.querySelectorAll('main h2 section p');
+    let p_client = document.createElement("p");
+    let p_date = document.createElement("p");
+    p_client.innerHTML = "Client :" + data.nom;
+    p_date.innerHTML = "Date : " + data.date;
+    parent[0].appendChild(p_client);
+    parent[1].appendChild(p_date);
+
+}
+
+function passager(tr, data, index) {
+    let parent = document.querySelectorAll('article table tbody');
+    let td_cat = document.createElement("td");
+    let td_nombre = document.createElement("td");
+    let td_prix = document.createElement("td");
+    let td_total = document.createElement("td");
+    td_cat.innerHTML = categorie_passager[data];
+    td_nombre.innerHTML = data[index];
+    td_prix.innerHTML = 
+}
+
